@@ -31,9 +31,9 @@ FROM users u
 WHERE uid <> 0 AND NOT EXISTS (SELECT cas_name FROM cas_user c WHERE c.cas_name = u.name);
 ```
 - [ ] If you look at the Users page, you should see something similar to the following:
-Drupal 6
+1. Drupal 6
 ![Drupal 6](https://www.evernote.com/shard/s10/sh/68fe61d7-6acb-4108-9c2f-c8d4cf8384bd/ecbbede72b11003f483a2af6909443da/deep/0/Drupal-6-CAS-users.png)
-Drupal 7
+1. Drupal 7
 ![Drupal 7](https://www.evernote.com/shard/s10/sh/aaf37765-cf4b-475f-ab45-015ce68d5795/98013744cf8535c37129489d22ddce14/deep/0/Drupal-7-CAS-users.png)
 - [ ] Change all your login links to https://yoursite.columbia.edu/cas. Disable the WIND module, which you no longer need. Add a redirect from /user/wind to /cas so users don't get a 404. (Make sure that the redirection is going to an https page or you will get a scary error message when you try to log in.)
 - [ ] Take the site out of maintenance mode.

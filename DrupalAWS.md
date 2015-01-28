@@ -12,6 +12,11 @@ Spin up a new site
 sudo yum -y update
 sudo yum -y install httpd mysql mysql-server php php-cli php-gd php-intl php-mbstring php-mysql php-pdo php-pear php-xml php-xmlrpc
 ```
+- [ ] The current version of Red Hat replaced MySQL with MariaDB in its official yum repo, so you have to manually add the mysql community into your rpm repo.
+```
+sudo rpm -Uvh http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm
+sudo yum install mysql-server
+```
 - [ ] Make sure services automatically start on a reboot:
 ```
 sudo chkconfig httpd on

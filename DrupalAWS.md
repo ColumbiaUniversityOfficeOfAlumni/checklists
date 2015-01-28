@@ -10,7 +10,7 @@ Spin up a new site
 - [ ] On the command line, run the following installs (this is for Red Hat and will need to be updated for Ubuntu):
 ```
 sudo yum -y update
-sudo yum -y install httpd mysql mysql-server php php-cli php-gd php-intl php-mbstring php-mysql php-pdo php-pear php-xml php-xmlrpc
+sudo yum -y install httpd mysql mysql-server php php-cli php-gd php-intl php-mbstring php-mysql php-pdo php-pear php-xml php-xmlrpc git
 ```
 - [ ] The current version of Red Hat replaced MySQL with MariaDB in its official yum repo, so you have to manually add the mysql community into your rpm repo.
 ```

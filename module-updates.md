@@ -7,6 +7,7 @@ Nota bene:
 - Upgrade modules one at a time. It will be very tempting to do several at once. IGNORE THIS IMPULSE.
 - Before beginning the upgrade process, back up your database and codebase (the latter _outside_ of SVN, because I hate, fear, and distrust SVN.)
 - Take a snapshot of what modules are enabled -- updating modules or core sometimes disables modules, seemingly at random, and it can be incredibly frustrating to troubleshoot "why isn't this working?" when it's just that something is mysteriously turned off.
+- On eng, sites/alumni.columbia.edu is an alias/symbolic link for sites/dev.alumni.columbia.edu; sites/magazine.columbia.edu is an alias/symbolic link for sites/dev.magazine.columbia.edu -- do your work in the dev folders. This is an artifact of the development process lo these many years again and there is an eldritch god that will heap retribution upon your head if you interfere with this structure.
 
 Okay. Let's begin.
 -----------------

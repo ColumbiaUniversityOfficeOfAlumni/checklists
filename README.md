@@ -3,6 +3,9 @@
 > fate. A chance and hope of my procuring, Ebenezer.""
 > > Charles Dickens, _[A Christmas Carol](http://www.gutenberg.org/files/46/46-h/46-h.htm)_, "Marley's Ghost"
 
+***
+Drupal
+------
 If you see an error, either in drush or in dblog, that reads something like this:
 
 > Error: require_once(): Failed opening required
@@ -12,7 +15,10 @@ If you see an error, either in drush or in dblog, that reads something like this
 
 it is _not_ a problem with the Sundial module. I've never been able to figure out what is going on that causes that error; it might have something to do with PHP version, but I've never been able to prove it.
 
-Useful tools, in alphabetical order (you may not be able to use $D without installing $J, or installing something I forgot to put in this list.)
+***
+Useful tools
+--------
+in alphabetical order (you may not be able to use $D without installing $J, or installing something I forgot to put in this list.)
 - [CodePen.io](http://codepen.io/Web-Initiatives/)
 - [CSS print framework](https://github.com/vladocar/Hartija---CSS-Print-Framework)
 - [CSS3 generator](http://css3generator.com/)
